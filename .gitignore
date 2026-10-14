@@ -1,0 +1,13 @@
+# Your genome and everything made from it stay on your computer.
+input/*
+!input/README.md
+results/
+data/
+.tools/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+validation/*
+!validation/*.md
+!validation/*.tsv

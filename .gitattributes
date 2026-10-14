@@ -1,0 +1,7 @@
+# Shell and Python files must keep Unix line endings (Windows checkouts otherwise break run.sh inside WSL)
+*.sh  text eol=lf
+*.py  text eol=lf
+*.R   text eol=lf
+*.yml text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf

@@ -1,0 +1,21 @@
+# Core environment, created automatically by run.sh inside .tools/ (no admin rights needed).
+name: genomekit
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib-base
+  - openjdk=21
+  - bcftools=1.24
+  - htslib
+  - plink
+  - plink2
+  - git
+  - pip
+  - pip:
+      - "yhaplo @ git+https://github.com/23andMe/yhaplo.git@2.1.18"
